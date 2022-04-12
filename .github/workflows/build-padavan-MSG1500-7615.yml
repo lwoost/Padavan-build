@@ -39,7 +39,7 @@ jobs:
     - name: Build Firmware
       env:
         #TNAME: RM2100
-        TNAME: MI-3
+        TNAME: MSG1500-7615
       run: |
         cd /opt/rt-n56u/trunk
         if [ ! -f configs/templates/$TNAME.config ] ; then
